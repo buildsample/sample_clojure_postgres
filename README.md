@@ -1,2 +1,4 @@
-sample_clojure_postgres
-=======================
+Clojure Sample with Postgres
+=====================
+
+Simple Clojure app using clojure.test framework and PostgreSQL.
