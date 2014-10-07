@@ -13,6 +13,7 @@ addons:
 before_script:
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
+  - psql -c 'drop database if exists test;' -U postgres -w
   - psql -c 'CREATE DATABASE test;' -U postgres
 
 # Running the test with Leiningen
