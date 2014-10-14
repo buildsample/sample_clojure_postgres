@@ -18,7 +18,7 @@ before_script:
   - psql -c 'CREATE DATABASE test;' -U postgres
 
 # Running the test with Leiningen
-script
+script:
   - cd sample
   - lein test
-#cache: true
+cache: true
