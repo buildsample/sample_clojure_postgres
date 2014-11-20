@@ -1,6 +1,7 @@
 # Language setting
 language: clojure
 
+
 lein:
   - lein2
 
@@ -22,4 +23,4 @@ before_script:
 script:
   - cd sample
   - lein test
-#cache: true
+cache: true
