@@ -9,7 +9,7 @@ lein:
 addons:
   postgresql: "9.2"
 
-build_image: shippable/minv2:beta
+#: shippable/minv2:beta
 
 # Create directories for test and coverage reports; Create 'test' Postgres database
 before_script:
