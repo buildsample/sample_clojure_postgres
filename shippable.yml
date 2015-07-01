@@ -6,8 +6,8 @@ lein:
 
 
 # Addons used by app
-addons:
-  postgresql: "9.2"
+#addons:
+ # postgresql: "9.2"
 
 #: shippable/minv2:beta
 
