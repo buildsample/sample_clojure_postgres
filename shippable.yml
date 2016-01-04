@@ -4,7 +4,7 @@ language: clojure
 lein:
   - lein2
 
-
+buildimage: drydock/u12clopls:tip
 # Addons used by app
 #addons:
  # postgresql: "9.2"
